@@ -1,0 +1,21 @@
+html {
+  font-size: 10px;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_container {
+  background-color: #1F2937;
+  padding: 62px;
+}
+
+span {
+  display: block;
+}
