@@ -9,6 +9,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
 }
 
 .content_container {
@@ -16,6 +18,53 @@ body {
   padding: 62px;
 }
 
+.first_text {
+  font-size: 4rem;
+}
+
+.second_text {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+p {
+  margin: 0;
+}
+
 span {
   display: block;
+}
+
+button {
+  margin-top: 5.1rem;
+  padding: .9rem 1.5rem;
+  background: #10B981;
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+
+  border: none;
+  border-radius: 6px;
+}
+
+.top_content {
+  border-bottom: solid 1px #2F3E53;
+  margin-bottom: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.password_container {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.password_container > div {
+  height: 30px;
+  background: #273549;
+  flex-grow: 1;
+  border-radius: 6px;
+  text-align: center;
+  color: #10B981;
+  font-size: inherit;
+  font-family: inherit;
 }
