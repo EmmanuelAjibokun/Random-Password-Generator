@@ -69,6 +69,7 @@ button {
   justify-content: center;
   display: flex;
   border-radius: 6px;
+  padding: 0 1.6rem;
   text-align: center;
   color: #10B981;
   font-size: inherit;
